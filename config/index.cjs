@@ -7,12 +7,12 @@ const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: '',
+  APP_ID: 'wx0ca2f6a3037cd65c',
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: '',
+  APP_SECRET: '81952be1855b1478093d09e588ab6f0d',
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -63,11 +63,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '廖小溶',
+      name: ['廖小溶','李鸿骏'],
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'odR1z6hmxhVATil8rJvyRxLn44Z0',
+      id: ['odR1z6hmxhVATil8rJvyRxLn44Z0','odR1z6qE1SD89SIzGCw85vY32nG0'],
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'ixd4oFMpu7ScLNgLNJy9kzs21alXd27bGGIJ3KEP5Ms',
+      useTemplateId: ['ixd4oFMpu7ScLNgLNJy9kzs21alXd27bGGIJ3KEP5Ms','uJqOYFAMGpjEK9cHP4jp00FSy572AFqe6Mz5A4Xson0'],
       // 所在省份
       province: '江西',
       // 所在城市
