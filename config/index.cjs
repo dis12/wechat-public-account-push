@@ -63,11 +63,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: ['廖小溶','李鸿骏'],
+      name: '廖小溶',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: ['odR1z6hmxhVATil8rJvyRxLn44Z0','odR1z6qE1SD89SIzGCw85vY32nG0'],
+      id: 'odR1z6ggtUzn1REE490abuRClCp4',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: ['ixd4oFMpu7ScLNgLNJy9kzs21alXd27bGGIJ3KEP5Ms','uJqOYFAMGpjEK9cHP4jp00FSy572AFqe6Mz5A4Xson0'],
+      useTemplateId: 'ixd4oFMpu7ScLNgLNJy9kzs21alXd27bGGIJ3KEP5Ms',
       // 所在省份
       province: '江西',
       // 所在城市
@@ -170,47 +170,6 @@ const USER_CONFIG = {
         }
       },
     },
-    {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    }
-    // 你可以不断按格式往下增加
-    // ...
   ],
 
   /**
@@ -218,7 +177,7 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'uJqOYFAMGpjEK9cHP4jp00FSy572AFqe6Mz5A4Xson0',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -226,7 +185,7 @@ const USER_CONFIG = {
       // 一般都填自己
       name: '自己',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'odR1z6qE1SD89SIzGCw85vY32nG0',
     }
     // 你可以不断按格式往下增加
     // ...
@@ -239,9 +198,9 @@ const USER_CONFIG = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: '广东',
+  PROVINCE: '江西',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '惠州',
+  CITY: '九江',
 
   /** 重要节日相关 */
 
