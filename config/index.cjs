@@ -96,9 +96,9 @@ const USER_CONFIG = {
           date: '2022-09-23',
           // 该日期是否为单周
           isOdd: true
-        },
-      },
-    },
+        }
+      }
+    }
   ],
 
   /**
